@@ -1,0 +1,38 @@
+.card{
+    padding: 0;
+    margin-right: 2%;
+    margin-bottom: 5%;
+    position: relative;
+width: 20rem;
+height: 26rem;
+}
+.card-img-top{
+    position: absolute;
+}
+.card-body{
+    position: absolute;
+    bottom: 0;
+    background: black;
+    opacity: 0.6;
+    left: 0;
+    width: 100%;
+    
+}
+.card-text{
+    
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-text>span:first-child{
+    position: relative;
+    top: 0;
+}
+.card-text>span:last-child{
+    position: relative;
+    bottom: 0;
+}
